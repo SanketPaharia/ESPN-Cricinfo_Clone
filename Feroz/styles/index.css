@@ -1,0 +1,60 @@
+#f_body{
+    height:280px; width:100%;
+    border:1px solid skyblue;
+    background-color: dodgerblue;
+}
+#f_match{
+    height:42px; width:auto;
+    /* border:1px solid red; */
+    margin-bottom:1px;
+   
+}
+#f_match>div{
+    margin-left:80px;
+    margin-top:15px;
+    display:flex;
+}
+#f_match h4{
+    margin-left:22px;
+    color:white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial,
+}
+#home_product{
+    height:180px; width:100%;
+    /* border:1px solid red; */
+}
+
+/* sliding */
+
+
+
+
+
+.f_nav{
+    height:45px; width:100%;
+    display:flex;
+    /* border:1px solid red; */
+    /* margin-top:0px; */
+    background-color:#48D1CC
+}
+.f_nav>img{
+    height:50%;
+    width:150px;
+    margin-top:8px;
+    margin-left:10px;
+}
+button{
+    margin-left:-25px;
+}
+#pop{
+    width:70%;
+margin: auto;    
+}
+.pop_img{
+    margin: left 150px;
+    margin-top:60px;
+}
+*{
+    padding:0;
+    margin:0;
+}
