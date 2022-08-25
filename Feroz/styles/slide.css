@@ -105,6 +105,7 @@ display:flex;
   margin-left:18px;
   font-size:12px;
   font-weight:bold;
+  margin-top:-3px;
 }
 .home_product-thumb {
   width: 100%;
