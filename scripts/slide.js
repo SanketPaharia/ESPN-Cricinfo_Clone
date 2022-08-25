@@ -1,4 +1,10 @@
-const home_productContainers = [...document.querySelectorAll('.home_product-container')];
+import stickynavbar from "../components/navbarsticky.js"
+
+
+document.getElementById('stickynavbar').innerHTML = stickynavbar 
+
+
+   const home_productContainers = [...document.querySelectorAll('.home_product-container')];
     const nxtBtn = [...document.querySelectorAll('.nxt-btn')];
     const preBtn = [...document.querySelectorAll('.pre-btn')];
 
