@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* display: block; */
+    max-width: 1250px;
+    font-family: BentonSans, Arial, "Noto Sans", sans-serif;
+    max-height: fit-content;
+}
+#abtopimage{
+    display: block;
+    margin: 40px auto;
+}
+#mainContainer{
+    width: 98%;
+    display: flex;
+    margin: 50px auto;
+    /* border: 1px solid black; */
+    height: fit-content;
+    justify-content: space-between;
+}
+#mainContainer #container{
+    display: flex;
+    width: 73%;
+    flex-direction: column;
+    padding: 01%;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+#mainContainer #container h1{
+    line-height: 36px;
+    color: #2b2c2d;
+    font-size: 28px;
+    font-weight: 700;
+    margin: 20px;
+}
+#mainContainer #rightcontainer{
+    display: flex;
+    width: 24%;
+    /* border: 1px solid red; */
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+#mainContainer #container{
+    display: flex;
+}
+#mainContainer #container div{
+    display: flex;
+    padding: 01%;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+#mainContainer #container div .innerImage{
+    width:292px;
+    height: 160px;
+    border-radius: 7px;
+}
+#mainContainer #container div>div{
+    display: flex;
+    flex-direction: column;
+    box-shadow: none;
+    gap: 8px;
+}
+#mainContainer #container div>div>h4{
+    color: #2b2c2d;
+    line-height: 22px;
+    font-size: 16px;
+    font-weight: 700;
+}
+#mainContainer #container div>div>h4+p{
+    color: #48494a;
+    line-height: 21px;
+    font-size: 14px;
+    font-weight: 400;
+}
+#mainContainer #container div>div>p+p{
+    color: #6c6d6f;
+    line-height: 18px;
+    font-size: 12px;
+    font-weight: 400;
+}
