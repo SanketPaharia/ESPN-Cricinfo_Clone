@@ -1,0 +1,74 @@
+#abtopimage{
+    margin-left: 18%;
+   
+
+}
+#navbar{
+    height: 250px
+
+}
+body{
+    background-color: rgb(249,249,251);
+}
+#boxx{
+    display: grid;
+    grid-template-columns: auto auto auto ;
+}
+#boxx1{
+    border-radius: 25px;
+    background-color: rgb(255,255,255);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 10%;
+    cursor: pointer;
+    width: 80%;
+}
+#boxx2{
+    border-radius: 25px;
+    background-color: rgb(255,255,255);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 10%;
+    cursor: pointer;
+    width: 80%;
+}
+#boxx3{
+    border-radius: 25px;
+    background-color: rgb(255,255,255);
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: 10%;
+    cursor: pointer;
+    width: 80%;
+}
+
+#outerboxx>div{
+    display: flex;
+    font-family: "BentonSans-Bold", Arial ,"Noto Sans",sans-serif;
+    line-height: 1.4;
+    color: rgb(72,73,74);
+    padding: 24px;
+    border-radius: 1px solid rgb(72,73,74) ;
+}
+#innerboxx>div{
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+}
+#my{
+    margin: auto;
+    margin-left: 10px;
+}
+#myimgg{
+    border: 1px solid black;
+}
+#topnamee{
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: bolder;
+}
+#outerboxx{
+   
+    
+}
