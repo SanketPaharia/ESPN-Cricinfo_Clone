@@ -1,0 +1,112 @@
+#f_body{
+    height:280px; width:100%;
+    border:1px solid skyblue;
+    background-color: dodgerblue;
+}
+#f_match{
+    height:42px; width:auto;
+    /* border:1px solid red; */
+    margin-bottom:1px;
+   
+}
+#f_match>div{
+    margin-left:80px;
+    margin-top:15px;
+    display:flex;
+}
+#f_match h4{
+    margin-left:22px;
+    color:white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial,
+}
+#home_product{
+    height:180px; width:100%;
+    /* border:1px solid red; */
+}
+
+/* sliding */
+.header {
+    /* padding: 10px 16px; */
+    /* background: #555; */
+    color: #f1f1f1;
+  }
+  
+  .content {
+    padding: 2px;
+  }
+  
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+
+  .sticky + .content {
+    padding-top: 102px;
+  }
+
+
+.f_nav{
+    height:45px; width:100%;
+    display:flex;
+    width: 110%;
+ margin-top:-5px;
+    background-color:#48D1CC
+}
+.f_nav>img{
+    height:50%;
+    width:150px;
+    margin-top:8px;
+    margin-left:10px;
+}
+
+
+button{
+    margin-left:-25px;
+}
+#pop{
+    width:70%;
+margin: auto;    
+}
+.pop_img{
+    margin: left 150px;
+    margin-top:60px;
+}
+*{
+    padding:0;
+    margin:0;
+}
+#imgen{
+display:flex;
+}
+#imgen>button{
+font-family:ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;
+margin-top:2px;
+margin-left:10px;
+margin-right:19px;
+color:white;
+border:0;
+font-size:14px;
+background-color: transparent;
+}
+#navtitle:hover{
+  background-color: rgb(10, 122, 233);
+}
+.fanimg{
+height:50%;
+margin-top:15px;
+}
+.fanimg:hover{
+    background-color: rgb(10, 122, 233);  
+}
+.famimg{
+height:120%; width:15px;
+}
+.es{
+    height:25px;
+}
+
+#boxin{
+    height:800px; width:100%; border:1px solid red;
+    margin-top:25px;
+}
