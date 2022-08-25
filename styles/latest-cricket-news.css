@@ -4,6 +4,7 @@
     /* display: block; */
     max-width: 1250px;
     font-family: BentonSans, Arial, "Noto Sans", sans-serif;
+    max-height: fit-content;
 }
 #abtopimage{
     display: block;
@@ -19,7 +20,7 @@
 }
 #mainContainer #container{
     display: flex;
-    width: 74%;
+    width: 73%;
     flex-direction: column;
     padding: 01%;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
@@ -34,7 +35,8 @@
 #mainContainer #rightcontainer{
     display: flex;
     width: 24%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
 #mainContainer #container{
     display: flex;
