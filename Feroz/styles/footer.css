@@ -1,0 +1,108 @@
+
+        
+.body{
+    height:auto;
+    width:100%;
+    background-color: rgb(240, 244, 245);
+}
+        .f_footer{
+            height:600px; width:98%;
+            font-family:  BentonSans,Arial,Noto Sans,sans-serif;
+            font-size:12px;
+            margin:auto;
+            margin-top:45px;
+            border-top-left-radius: 15px;
+            border-top-right-radius: 15px;
+            background-color:white;
+            box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+        }
+        .fkey{
+            display: flex;
+            justify-content: space-around;
+            box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px 0px;
+        }
+        #table{
+            display:flex;
+            margin-top:2px;
+            height:75%; width:auto;
+          
+        }
+        .coloumn01{
+height:105%; width:17.5%;
+justify-content: space-around;
+/* border:1px solid black; */
+margin-left:25px;
+        }
+        .coloumn01 a{
+            text-decoration:none;
+            color:black; font-size: 14px;
+          font-family:  BentonSans,Arial,Noto Sans,sans-serif;
+          /* margin-left:10px; */
+        }
+        a p{
+            margin-left:10px;
+        }
+
+  .coloumn01 p{
+    margin-top:22px;
+  }
+
+  .coloumn03{
+height:105%; width:17.5%;
+justify-content: space-around;
+/* border:1px solid black; */
+margin-left:25px;
+        }
+        .coloumn03 a{
+            text-decoration:none;
+            color:black; font-size: 14px;
+          font-family:  BentonSans,Arial,Noto Sans,sans-serif;
+          /* margin-left:10px; */
+        }
+        a p{
+            margin-left:10px;
+        }
+        .coloumn03 p{
+    margin-top:22px;
+    margin-left:45px;
+  }
+/* last slide box  */
+
+.coloumn04{
+height:105%; width:17.5%;
+justify-content: space-around;
+/* border:1px solid black; */
+margin-left:25px;
+        }
+        .coloumn04 a{
+            text-decoration:none;
+            color:black; font-size: 14px;
+          font-family:  BentonSans,Arial,Noto Sans,sans-serif;
+          /* margin-left:10px; */
+        }
+        a p{
+            margin-left:10px;
+        }
+        .coloumn04 p{
+    margin-top:22px;
+    margin-left:90px;
+  }
+#endfoot{
+    height:60px;
+    width:100%;
+    margin-top:6px; 
+    /* border:1px solid grey; */
+    background-color: rgb(240, 244, 245);
+    display:flex;
+    justify-content: space-between; 
+}
+.endnote1{
+    margin-left:16px; margin-top:18px;
+    font-size:15px;
+    font-family:  BentonSans,Arial,Noto Sans,sans-serif;
+}
+.endnote2{
+    margin-right:12px;margin-top:25px;
+    font-size:10px;
+    font-family:  BentonSans,Arial,Noto Sans,sans-serif;
+}
