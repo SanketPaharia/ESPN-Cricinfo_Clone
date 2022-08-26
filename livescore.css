@@ -1,6 +1,8 @@
 *{
     padding: 0px;
     margin: 0px;
+    font-family: Arial,sans-serif;
+    background-color: #f9f9fb;
 }
 #fimg{
     margin: auto;
@@ -11,11 +13,140 @@
     justify-content: space-around;
 }
 #main1{
-    border: 1px solid red;
+  
     width: 75%;
+    height: auto;
+   
 }
 #main2{
-    border: 1px solid green;
+   
     width: 20%;
 
+}
+.snav{
+    font-size: large;
+    display: flex;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+    justify-content: space-around;
+    border: 1px solid rgb(226, 219, 219);
+}
+#matches{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+   
+    
+}
+
+.t1d{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+}
+.t1d img{
+    width: 20%;
+}
+.t2d img{
+    width: 20%;
+}
+.t2d{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background-color: white;
+}
+
+.box{
+    border: 1px solid rgb(226, 219, 219);
+    padding: 10px;
+    background-color: white;
+}
+.fdiv{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    background-color: white;
+}
+.sdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+p{
+    font-size: 15px;
+    background-color: white;
+    margin-top: 10px;
+}
+
+button{
+   border: none;
+
+}
+
+.bndiv{
+    display: flex;
+    gap: 10px;
+    background-color: white;
+}
+a{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+}
+
+
+#cat{
+    background-color: #f9f9fb;
+}
+#btndiv {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 10px;
+}
+
+#sortbtn {
+   border-radius: 10px;
+   padding: 5px 10px;
+    text-decoration: none;
+    background-color: white;
+   
+    cursor: pointer;
+}
+
+#sortbtn:hover {
+    background-color: rgb(104, 163, 230);
+}
+
+#sponsor{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:10px
+}
+
+.nbox img{
+    width: 100%;
+    height: 250px;
+}
+
+.mbox{
+    display: flex;
+    gap: 10px;
+}
+#tev{
+    font-size: large;
+   
+    padding: 10px;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    justify-content: space-around;
+    border: 1px solid rgb(226, 219, 219);
 }
