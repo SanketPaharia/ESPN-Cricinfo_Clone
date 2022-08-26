@@ -348,7 +348,9 @@ let displayScore=(tEvents)=>{
    bndiv.append(bt1,bt2);
    bndiv.setAttribute("class","bndiv")
 
-   box.append(status,matches,fdiv,sdiv,mstatus,bndiv)
+   let hr=document.createElement("hr");
+
+   box.append(status,matches,fdiv,sdiv,mstatus,hr,bndiv)
 
    document.getElementById("matches").append(box);
 

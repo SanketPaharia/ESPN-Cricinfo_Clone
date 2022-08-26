@@ -16,7 +16,7 @@
   
     width: 75%;
     height: auto;
-    background-color: white;
+   
 }
 #main2{
    
@@ -35,7 +35,7 @@
 #matches{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    background-color: white;
+   
     
 }
 
@@ -96,34 +96,26 @@ button{
 a{
     text-decoration: none;
     color: black;
-}
-
-#btndiv {
-  
-    display: flex;
-}
-
-#sortbtn {
-    border: 0px;
-    padding: 10px;
-    text-decoration: none;
     background-color: white;
-    font-size: 16px;
-    cursor: pointer;
 }
 
+
+#cat{
+    background-color: #f9f9fb;
+}
 #btndiv {
-  
+    margin-top: 20px;
+    margin-bottom: 20px;
     display: flex;
     gap: 10px;
 }
 
 #sortbtn {
    border-radius: 10px;
-    padding: 10px;
+   padding: 5px 10px;
     text-decoration: none;
     background-color: white;
-    font-size: 16px;
+   
     cursor: pointer;
 }
 
@@ -132,6 +124,8 @@ a{
 }
 
 #sponsor{
+    margin-top: 20px;
+    margin-bottom: 20px;
     display: grid;
     grid-template-columns: repeat(3,1fr);
     gap:10px
@@ -145,4 +139,14 @@ a{
 .mbox{
     display: flex;
     gap: 10px;
+}
+#tev{
+    font-size: large;
+   
+    padding: 10px;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    justify-content: space-around;
+    border: 1px solid rgb(226, 219, 219);
 }
