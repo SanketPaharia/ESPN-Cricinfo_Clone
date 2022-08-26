@@ -1,3 +1,11 @@
+import navbar from "../components/navbar.js"
+import stickynavbar from "../components/navbarsticky.js"
+import footer from "../components/footer.js"
+
+document.getElementById('navbar').innerHTML =navbar;
+document.getElementById('stickynavbar').innerHTML = stickynavbar;
+document.querySelector('footer').innerHTML = footer;
+
 let abhi = 
 [
     {
@@ -403,27 +411,27 @@ let renderDom = () =>{
 }
 
 let displayData = (data) =>{
-    try{
         let container = document.getElementById("container");
-        data.forEach(({title,metaDesc,author,image}) => {
+        data.forEach((el) => {
             let div = document.createElement("div");
             let tit = document.createElement("h4");
-            tit.innerText = title;
+            tit.innerText = el.title;
             let auth = document.createElement("p");       
-            auth.innerText = author;
+            auth.innerText = el.author;
             let img = document.createElement("img");
-            img.src = image;
+            img.src = el.image;
             img.setAttribute("class","innerImage")
             let meta = document.createElement("p");
-            meta.innerText = metaDesc;
+            meta.innerText = el.metaDesc;
             let div1 = document.createElement("div");
             div1.append(tit,meta,auth);
             div.append(img,div1);
+            div.onclick = () =>{
+                localStorage.setItem("article",JSON.stringify(el));
+                window.location.href = "./news.html";
+            }
             container.append(div);
         });
-    }
-    catch{
-        console.log()
-    }
 }
+
 
