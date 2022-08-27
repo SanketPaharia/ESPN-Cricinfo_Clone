@@ -53,7 +53,7 @@
     /* justify-content: space-evenly; */
     width: 110%;
  margin-top:-5px;
-    background-color:#48D1CC
+    background-color:rgb(3,169,244)
 }
 .f_nav>img{
     height:50%;
@@ -128,7 +128,7 @@ margin-left:-50px;
     margin-left:20px;
     border:0;
     color:white;
-    background-color:#48D1CC;
+    background-color:rgb(3,169,244);
     margin-top:8px;
 }
 .dropbtn1:hover{
@@ -147,11 +147,13 @@ margin-left:-50px;
     width:80px;
 }
 .dropbtn9{
-    margin-left:-10px;  
+    margin-left:10px;  
+    
     border:0;
     color:white;
-    background-color:#48D1CC;
+    background-color:rgb(3,169,244);
     margin-top:8px;
+    padding-top: 8px;
 }
 .dropbtn9:hover{
     background-color: blue;
