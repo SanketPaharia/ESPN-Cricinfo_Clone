@@ -29,10 +29,10 @@
           
         }
         .coloumn01{
-height:105%; width:17.5%;
-justify-content: space-around;
-/* border:1px solid black; */
-margin-left:25px;
+          height:105%; width:17.5%;
+          justify-content: space-around;
+          /* border:1px solid black; */
+          margin-left:25px;
         }
         .coloumn01 a{
             text-decoration:none;
