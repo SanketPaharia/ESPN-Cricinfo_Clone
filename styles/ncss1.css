@@ -263,12 +263,17 @@
         margin-left:9px;
     }
     #foot{
+        display:flex;
         width:100%;
         height:50px;
         background-color: whitesmoke;
         margin-top:20px;
     }
-    #foot>p{
+    #foot>button{
         padding-top:10px;
+        border:none;
+        color:black;
+        margin-left:20px;
+        cursor:pointer;
     }
     
