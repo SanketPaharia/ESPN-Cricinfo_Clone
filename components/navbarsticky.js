@@ -4,9 +4,9 @@ let stickynavbar = () =>{
     <div class="header" id="myHeader">
       <div class="content">
     <div class="f_nav">
-        <img src="https://wassets.hscicdn.com/static/images/logo.png" alt="logo">
+    <img src="https://wassets.hscicdn.com/static/images/logo.png" alt="logo" >
         <!-- dropdown menu Bar  -->
-        <div class="dropdown">
+        <a href="livescore.html"><div class="dropdown">
             <button class="dropbtn">Live Scores</button>
             <div class="dropdown-content">
               <a href="#">Live Scores Home</a>
@@ -16,10 +16,12 @@ let stickynavbar = () =>{
               <a href="#">International Calender</a>
               <a href="#"> Desktop Scoreboard</a>
             </div>
-          </div>
+          </div></a>
        <!-- name 2 part -->
-        <div class="dropdown"> <a href="series.html"></a>
-        <button class="dropbtn_3">Series </button>
+
+       <a href="series.html"><div class="dropdown">
+        <button class="dropbtn_3">Series</button>
+
         <div class="dropdown-content">
           <div class="row">
             <div class="column">
@@ -47,10 +49,12 @@ let stickynavbar = () =>{
             </div>
         </div>
       </div>
-        </div>
+        </div></a>
        <!-- name 3 part-3  -->
-      <div class="dropdown"> <a href="teams.html"></a>
-        <button class="dropbtn_3">Teams  </button>
+
+       <a href="teams.html"><div class="dropdown">
+        <button class="dropbtn_3">Teams</button>
+
         <div class="dropdown-content">
           <div class="row">
             <div class="column1">
@@ -79,9 +83,9 @@ let stickynavbar = () =>{
             </div>
         </div>
       </div>
-        </div>
+        </div></a>
         <!-- next part -03 -->
-        <div class="dropdown">
+        <a href="latest-cricket-news.html"><div class="dropdown">
           <button class="dropbtn9">News</button>
           <div class="dropdown-content">
             <a href="#">News Home</a>
@@ -90,9 +94,10 @@ let stickynavbar = () =>{
             <a href="#">Technology in cricket</a>
             <a href="#">Racism</a>
           </div>
-        </div>
+        </div></a>
         <!-- closing . -->
-        <div class="dropdown">
+        
+        <a href="cricket-features.html"><div class="dropdown">
           <button class="dropbtn">Features</button>
           <div class="dropdown-content">
             <a href="#">Features Home</a>
@@ -100,9 +105,9 @@ let stickynavbar = () =>{
             <a href="#">Photo Galleries</a>
             <a href="#">The Cricket Monthly</a>
           </div>
-        </div>
+        </div></a>
         <!-- closing  -->
-        <div class="dropdown">
+        <a href="video.html"><div class="dropdown">
           <button class="dropbtn_3">Videos</button>
           <div class="dropdown-content">
             <div class="row">
@@ -127,10 +132,10 @@ let stickynavbar = () =>{
               </div>
           </div>
         </div>
-          </div>
+          </div></a>
           <!-- CLOSING  -->
           <div class="dropdown">
-            <button class="dropbtn_3">Sat</button>
+            <button class="dropbtn_3">Stats</button>
             <div class="dropdown-content">
               <div class="row">
                 <div class="column2">
