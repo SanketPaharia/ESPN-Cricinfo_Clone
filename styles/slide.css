@@ -1,5 +1,5 @@
 .home_product {
-    width: 84%;
+    width: 88%;
     margin: auto;
   /* position: relative; */
   overflow: hidden;
@@ -124,7 +124,6 @@ display:flex;
   cursor: pointer;
   /* z-index: 1; */
 }
-
 .pre-btn {
     margin-top:70px;
     margin-right:30px;
