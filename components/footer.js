@@ -57,7 +57,7 @@ let footer = () =>{
 <!-- end of page  -->
 <div id="endfoot">
 <div>
-<p class="endnote1">Trems of Use | Privacy Policy | Intrest-Based Ads | Addendum to the Global Privacy Policy | Feedback</p>
+<p class="endnote1">Terms of Use | Privacy Policy | Intrest-Based Ads | Addendum to the Global Privacy Policy | Feedback</p>
 </div>
 <div>
     <p class="endnote2"> @2022 ESPN Sports Media Ltd. All rights reserved</p>
