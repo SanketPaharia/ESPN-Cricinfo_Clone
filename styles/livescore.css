@@ -4,13 +4,28 @@
     font-family: Arial,sans-serif;
     background-color: #f9f9fb;
 } */
+body{
+    margin-top: 10px;
+}
+#outrbox{
+    display: flex;
+}
+#outrbox #rightcontainer{
+    display: flex;
+    width: 20%;
+    /* border: 1px solid red; */
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
 #fimg{
-    margin: auto;
+    
+    margin: 30px auto ; 
+    
     text-align: center;
 }
 #main{
     display: flex;
     justify-content: space-around;
+    margin-top: 50px;
 }
 #main1{
   
@@ -96,8 +111,9 @@ button{
 a{
     text-decoration: none;
     color: black;
-    background-color: white;
+ /*    background-color: ; */
 }
+
 
 
 #cat{
