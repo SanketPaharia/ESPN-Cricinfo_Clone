@@ -47,11 +47,12 @@ button:hover{
 }
 .keyser>h5{
     margin-left:15px;
-    margin-top:50px;
+    margin-top:10px;
+    margin-bottom:35px;
 }
 .keyser p{
     margin-left:10Px;
-    margin-top:-4px;
+    margin-top:5px;
     font-size:14px;
 }
 .bold{
@@ -70,11 +71,12 @@ button:hover{
 }
 .quick h5{
     margin-left:15px;
-    margin-top:50px;
+    margin-top:10px;
+    margin-bottom:35px;
 }
 .quick p{
     margin-left:10Px;
-    margin-top:-4px;
+    margin-top:10px;
     font-size:14px;
 }
 #match{
@@ -93,13 +95,12 @@ button:hover{
 color:grey;
 font-size:10px;
 margin-left:15px;
-margin-top:-18px;
+margin-top:10px;
 }
 #match h5{
     margin-left:15px;
     font-size:14px;
-    /* margin-top:-15px; */
-    /* margin-bottom:10px; */
+   margin-top:35px;
 }
 #match>div img{
     margin-top:5px; 
@@ -110,6 +111,7 @@ margin-top:-18px;
 .lunch{
     color:red;
     font-size:14px;
+    margin-bottom:15px;
 }
 .matk{
  height:50px;
@@ -140,10 +142,11 @@ margin-top:-18px;
 .quick01 h5{
     margin-left:15px;
     margin-top:50px;
+    margin-bottom:35px;
 }
 .quick01 p{
     margin-left:10Px;
-    margin-top:-4px;
+    margin-top:10px;
     font-size:14px;
 }
 
@@ -160,10 +163,11 @@ margin-top:-18px;
 .ESPN h5{
     margin-left:15px;
     margin-top:50px;
+    margin-bottom:35px;
 }
 .ESPN p{
     margin-left:10Px;
-    margin-top:-4px;
+    margin-top:15px;
     font-size:14px;
 }
 
@@ -291,10 +295,11 @@ text-align: center;
 .newh h5{
     margin-left:15px;
     margin-top:30px;
+    margin-bottom:35px;
 }
 .newh p{
     margin-left:10Px;
-    margin-top:-4px;
+    margin-top:5px;
     font-size:14px;
 }
 #add {

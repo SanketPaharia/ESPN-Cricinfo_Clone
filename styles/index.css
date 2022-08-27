@@ -49,6 +49,7 @@
 .f_nav{
     height:45px; width:100%;
     display:flex;
+    /* justify-content: space-evenly; */
     width: 110%;
  margin-top:-5px;
     background-color:#48D1CC
@@ -89,6 +90,9 @@ border:0;
 font-size:14px;
 background-color: transparent;
 }
+.navtitle{
+    margin-top:18px;
+}
 #navtitle:hover{
   background-color: rgb(10, 122, 233);
 }
@@ -97,16 +101,42 @@ height:50%;
 margin-top:15px;
 }
 .fanimg:hover{
-    background-color: rgb(10, 122, 233);  
+    background-color: rgb(10, 122, 233); 
+    width:10px; 
 }
+
 .famimg{
 height:120%; width:15px;
+margin-left:-50px;
 }
 .es{
     height:25px;
 }
 
 #boxin{
-    height:800px; width:100%; border:1px solid red;
+    height:800px; width:100%; 
+    /* border:1px solid red; */
     margin-top:25px;
+}
+.dropbtn1{
+    margin-left:20px;
+    border:0;
+    color:white;
+    background-color:#48D1CC;
+    margin-top:8px;
+}
+.dropbtn1:hover{
+    background-color: blue;
+    width:80px;    
+}
+.dropbtn9{
+    margin-left:-10px;  
+    border:0;
+    color:white;
+    background-color:#48D1CC;
+    margin-top:8px;
+}
+.dropbtn9:hover{
+    background-color: blue;
+    width:80px;
 }

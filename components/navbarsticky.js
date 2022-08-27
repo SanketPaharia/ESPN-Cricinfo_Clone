@@ -82,7 +82,7 @@ let stickynavbar = () =>{
         </div>
         <!-- next part -03 -->
         <div class="dropdown">
-          <button class="dropbtn">News</button>
+          <button class="dropbtn9">News</button>
           <div class="dropdown-content">
             <a href="#">News Home</a>
             <a href="#">Future of ODIs</a>
@@ -180,7 +180,7 @@ let stickynavbar = () =>{
               <img class="fanimg" src="https://pbs.twimg.com/profile_images/1084839186274942978/CMWEwwnd_400x400.jpg" alt="moon">
               <img class="fanimg" src="https://assets-global.website-files.com/5d5a3c3b83100b074a079db9/5de1572859d27b6861180ca5_Alerts.png" alt="notify">
               <div class="dropdown">
-                <button class="dropbtn">कA</button>
+                <button class="dropbtn1">कA</button>
                 <div class="dropdown-content">
                   <a href="#">English</a>
                   <a href="#">HIndi</a>
