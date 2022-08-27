@@ -136,7 +136,7 @@
             <p>Hammersmith</p>
             <p>London W6 9PE</p>
             <p>United Kingdom</p>
-            <p class="blu">Contact us</p>
+            <p class="blu" id="blu1">Contact us</p>
 
             <h5>ESPNcricinfo USA</h5>
             <p>ESPN International</p>
@@ -144,7 +144,7 @@
             <p>77, West 66th Street</p>
             <p>New York</p>
             <p>NY 10023</p>
-            <p class="blu">Contact us</p>
+            <p class="blu" id="blu2">Contact us</p>
 
 
         </div>
@@ -161,8 +161,19 @@
 </body>
 
 </html>
+
 <script src="./scripts/forall.js"></script>
 <script type="module" src="./scripts/about-contact.js">
+ let contactUs = () => {
+        window.location.href = "./feedback.html"
+    }
+    document.getElementById("blu1").addEventListener("click", () => {
+        contactUs();
+    })
 
+    document.getElementById("blu2").addEventListener("click", () => {
+        contactUs();
+    })
 
 </script>
+
