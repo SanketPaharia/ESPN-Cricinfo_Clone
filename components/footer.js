@@ -1,5 +1,6 @@
 let footer = () =>{
-    return `<div class="f_footer">
+    return `<div class="body">
+    <div class="f_footer">
     <div class="fkey">
         <h2>Key Series</h2>
         <h2>Quick Links</h2>

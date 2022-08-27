@@ -18,8 +18,8 @@ let stickynavbar = () =>{
             </div>
           </div>
        <!-- name 2 part -->
-        <div class="dropdown">
-        <button class="dropbtn_3">Series</button>
+        <div class="dropdown"> <a href="series.html"></a>
+        <button class="dropbtn_3">Series </button>
         <div class="dropdown-content">
           <div class="row">
             <div class="column">
@@ -49,8 +49,8 @@ let stickynavbar = () =>{
       </div>
         </div>
        <!-- name 3 part-3  -->
-      <div class="dropdown">
-        <button class="dropbtn_3">Teams</button>
+      <div class="dropdown"> <a href="teams.html"></a>
+        <button class="dropbtn_3">Teams  </button>
         <div class="dropdown-content">
           <div class="row">
             <div class="column1">

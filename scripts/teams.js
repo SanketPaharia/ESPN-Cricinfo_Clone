@@ -1,8 +1,10 @@
 import navbar from "../components/navbar.js"
 import stickynavbar from "../components/navbarsticky.js"
+import footer from "../components/footer.js"
 
 document.getElementById('navbar').innerHTML =navbar
 document.getElementById('stickynavbar').innerHTML = stickynavbar
+document.querySelector('footer').innerHTML = footer;
 
 let topImage = [
   "https://tpc.googlesyndication.com/simgad/931568015193886157",
