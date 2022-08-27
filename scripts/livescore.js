@@ -1,3 +1,10 @@
+import stickynavbar from "../components/navbarsticky.js"
+import footer from "../components/footer.js"
+document.getElementById('stickynavbar').innerHTML = stickynavbar
+document.getElementById('footerr').innerHTML = footer
+
+
+
 let tEvents=[
     {
         status:"LIVE",
@@ -143,7 +150,7 @@ let tEvents=[
 
 ];
 
-sponsoredArr=[
+let sponsoredArr=[
     {
         Image:"https://i.gadgets360cdn.com/large/intel-t_1661156344556.png",
         title:"Get Superior Performance When You Need It the Most With 12th Gen Intel Core Mobile Processors",

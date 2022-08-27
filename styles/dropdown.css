@@ -4,10 +4,11 @@
 }
 
 .dropbtn {
-    background-color: #48D1CC;
+    background-color: rgb(3,169,244);
     color: white;
     padding: 16px;
     font-size: 14px;
+    margin-left: 10px;
     border: none;
     height:100%; width:130px;
   }
@@ -105,7 +106,7 @@
       
 
         .dropbtn_3 {
-          background-color: #48D1CC;
+          background-color: rgb(3,169,244);
           color: white;
           padding: 16px;
           font-size: 14px;

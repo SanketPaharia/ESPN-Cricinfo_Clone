@@ -1,9 +1,9 @@
-*{
+/* *{
     padding: 0px;
     margin: 0px;
     font-family: Arial,sans-serif;
     background-color: #f9f9fb;
-}
+} */
 #fimg{
     margin: auto;
     text-align: center;
@@ -105,9 +105,13 @@ a{
 }
 #btndiv {
     margin-top: 20px;
+    margin-left: 20px;
     margin-bottom: 20px;
     display: flex;
     gap: 10px;
+}
+#btndiv >button{
+margin-left: 10px;
 }
 
 #sortbtn {
