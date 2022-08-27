@@ -98,18 +98,23 @@ background-color: transparent;
   background-color: rgb(10, 122, 233);
 }
 .fanimg{
-height:50%;
+height:50%; width:25px;
+margin-left:15px;
 margin-top:15px;
 }
 .fanimg:hover{
     background-color: rgb(10, 122, 233); 
-    width:10px; 
+    width:25px; 
 }
 
 .famimg{
-height:120%; width:15px;
+height:60%; width:10px;
 margin-left:-50px;
 }
+.dropbtn8:hover{
+    background-color: rgb(10, 122, 233); 
+    width:70px;
+    }
 .es{
     height:25px;
 }
@@ -128,7 +133,18 @@ margin-left:-50px;
 }
 .dropbtn1:hover{
     background-color: blue;
-    width:80px;    
+    width:50px;    
+}
+.dropbtn8{
+    /* margin-left:-5   */
+    border:0;
+    color:white;
+    background-color:#48D1CC;
+    margin-top:8px;
+}
+.dropbtn9:hover{
+    background-color: blue;
+    width:80px;
 }
 .dropbtn9{
     margin-left:-10px;  
