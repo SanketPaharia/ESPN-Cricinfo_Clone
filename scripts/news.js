@@ -6,9 +6,13 @@ document.getElementById('navbar').innerHTML =navbar;
 document.getElementById('stickynavbar').innerHTML = stickynavbar;
 document.querySelector('footer').innerHTML = footer;
 
-let data = JSON.parse(localStorage.getItem("article"))
-console.log(data)
-let displayData = () =>{
+let id = JSON.parse(localStorage.getItem("article"));
+let renderDom = async () =>{
+    let data = await fetch(`https://immense-oasis-91324.herokuapp.com/api/abhi/${id}`).then(res=>res.json());
+    displayData(data);
+}
+renderDom();
+let displayData = async (data) =>{
     let heading = document.createElement("h1");
     heading.innerText = data.title;
     let meta = document.createElement("p");
