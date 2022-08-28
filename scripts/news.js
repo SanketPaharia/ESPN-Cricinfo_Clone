@@ -11,8 +11,7 @@ let renderDom = async () =>{
     let data = await fetch(`https://immense-oasis-91324.herokuapp.com/api/abhi/${id}`).then(res=>res.json());
     displayData(data);
 }
-renderDom();
-let displayData = async (data) =>{
+let displayData = (data) =>{
     let heading = document.createElement("h1");
     heading.innerText = data.title;
     let meta = document.createElement("p");
@@ -106,7 +105,7 @@ let displayNews= () =>{
 
 
 window.onload = () =>{
-    displayData();
+    renderDom();
     displayNews();
     // localStorage.clear();
 }
