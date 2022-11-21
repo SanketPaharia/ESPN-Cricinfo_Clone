@@ -1,2 +1,2 @@
-# tranquil-engine-3054
-cricinfo clone
+# ESPN CRICINFO CLONE
+this repo is the clone of cricket website cricinfo
